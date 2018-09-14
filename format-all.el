@@ -391,8 +391,8 @@ Consult the existing formatters for examples of BODY."
   (:format (format-all-buffer-easy executable)))
 
 (define-format-all-formatter prettier
-  (:executable "prettier")
-  (:install "npm install prettier")
+  (:executable "prettier_dnc")
+  (:install "npm install prettier_d")
   (:modes
    ((js-mode js2-mode js3-mode)
     ;; The prettier folks seem to be currently pondering whether to
